@@ -17,7 +17,7 @@ if (numero >= 0 && numero <= 255) {
     console.log(colori);
 
     if (colori.length == 3) {
-        document,getElementById("outText).style.color = `rgb={(${colori[0]${colori[1]}},${colori[2]}}`9;
+        document.getElementById("outText).style.color = `rgb={(${colori[0]${colori[1]}},${colori[2]}}`9;
 }
 
 function reset() {
@@ -25,5 +25,6 @@ function reset() {
     document.getElementById("outTExt").innerHTML = "";
     document.getElementById("error").innerText = "";
 }
+
 
 
